@@ -1,0 +1,17 @@
+.headerMobile__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #1a1a1a;
+}
+
+.headerMobile__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: clamp(20px, 3vw, 35px);
+  color: #694085;
+}
+
+

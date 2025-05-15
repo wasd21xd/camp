@@ -1,0 +1,107 @@
+.schedule-block {
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.schedule-title {
+    font-size: clamp(24px, 5vw, 48px); /* Заголовок - крупнее */
+    color: #775C8A;
+    margin-top: 10px;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+}
+
+.schedule-subtitle {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: clamp(18px, 4.5vw, 28px); /* Подзаголовок */
+    color: #775C8A;
+    padding-top: 20px;
+}
+
+.schedule-months-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 100px;
+}
+.month-column {
+    min-width: 0; /* больше не нужно контролировать вручную */
+}
+
+
+.month-name {
+    font-size: clamp(16px, 5vw, 36px); /* Название месяца */
+    font-weight: 600;
+    color: #775C8A;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: left;
+    border-bottom: 3px solid #775C8A6E;
+}
+
+.weeks-list {
+    list-style: none;
+}
+
+.week-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.week-number-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFE187;
+    color: #775C8A;
+    border-radius: 50%;
+    font-size: clamp(14px, 4vw, 30px); /* Номер недели */
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.date-range {
+    display: inline-block;
+    background-color: #FFE187;
+    color: #775C8A;
+    padding: 8px 3px;
+    border-radius: 16px;
+    font-size: clamp(10px, 3.5vw, 20px); /* Диапазон дат */
+    font-weight: 500;
+    text-align: center;
+    flex-grow: 1;
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+.weekend-indicators {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.day-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #D9D9D9;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: clamp(10px, 3vw, 20px); /* Буквы дней */
+    font-weight: 600;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}

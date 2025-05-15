@@ -1,0 +1,89 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+.tariff-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: radial-gradient(circle at 30% 40%, rgba(185, 164, 222, 0.15), transparent 70%),
+    radial-gradient(circle at 70% 60%, rgba(185, 164, 222, 0.15), transparent 70%);
+    color: #5f3f7d;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.tariff-title {
+    font-size: 2.3em;
+    color: #997EAC;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+}
+
+.tariff-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.tariff-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 320px;
+    font-size: clamp(12px, 5vw, 20px);
+    font-weight: 500;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tariff-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.tariff-text-and-price {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tariff-price {
+    font-weight: 800;
+}
+
+.tariff-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.tariff-dots span {
+    width: 10px;
+    height: 10px;
+    background: #5f3f7d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.tariff-card:hover .tariff-dots span {
+    transform: scale(1.2);
+}
+
+.tariff-note {
+    font-size: clamp(12px, 5vw, 20px);
+    color: #5f3f7d;
+    line-height: 1.5;
+}
+
+.tariff-icon {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #5f3f7d;
+}

@@ -1,0 +1,47 @@
+.art__container {
+    display: flex;
+    flex-direction: row; /* Картинка слева, текст справа на больших экранах */
+    padding-top: 200px;
+    gap: 200px;
+    align-items: flex-start;
+}
+
+.left__art,
+.right__art {
+    width: 50%;
+}
+
+.img__art {
+    width: 100%;
+    height: auto;
+}
+
+.img__master1{
+    width: 100%;
+    height: auto;
+}
+/* ✅ Медиа-запрос — на экранах <=1440px: текст сверху, картинка снизу */
+@media (max-width: 1440px) {
+    .art__container {
+        flex-direction: column-reverse; /* меняем направление — колонка */
+        align-items: flex-start; /* выравнивание по левому краю */
+        gap: 60px;
+    }
+
+    .right__art,
+    .left__art {
+        width: 100%;
+    }
+
+    .img__art {
+        width: 100%;     /* уменьшает размер картинки */
+        max-width: 500px; /* ограничивает максимум */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* выравнивает по центру */
+    }
+
+    .block__text__master {
+        width: 100%;
+    }
+}

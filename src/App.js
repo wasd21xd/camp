@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+//
+// function App() {
+//   return (
+//     <div className="App">
+//
+//     </div>
+//   );
+// }
+//
+// export default App;
+
+import { useMediaQuery } from "react-responsive";
+import HomeDesktop from "./components/HomeDesktop/HomeDesktop";
+import HomeMobile from "./components/HomeMobile/HomeMobile";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  return isMobile ? <HomeMobile /> : <HomeDesktop />;
 }
 
 export default App;
