@@ -2,6 +2,8 @@
 import HeaderMobile from "../../components/HomeMobile/headerMobile/HeaderMobile";
 import PlaceMobile from "../../components/HomeMobile/placeMobile/PlaceMobile";
 import SheduleMobile from "../../components/HomeMobile/sheduleMobile/SheduleMobile";
+import FoodMobile from "../../components/HomeMobile/food/FoodMobile"  ;
+import WalksMobile from "../../components/HomeMobile/walksMobile/WalksMobile";
 
 export default function HomeMobile() {
     return (
@@ -9,6 +11,8 @@ export default function HomeMobile() {
             <HeaderMobile />
             <PlaceMobile/>
             <SheduleMobile />
+            <FoodMobile />
+            <WalksMobile />
         </div>
     );
 }

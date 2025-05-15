@@ -1,7 +1,7 @@
 import './food.css';
 
-import img4 from '../../../imgown/img/food/fac854b8fd11ee90ac6de10bdb2ae170bdd33d1c.png';
 import img5 from '../../../imgown/img/food/Group103.png';
+import img4 from '../../../imgown/img/food/fac854b8fd11ee90ac6de10bdb2ae170bdd33d1c.png';
 
 function Food() {
     return (

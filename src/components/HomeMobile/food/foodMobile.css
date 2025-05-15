@@ -1,0 +1,91 @@
+.food__mobile__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+.logo__food__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+}
+
+.img__food__mobile{
+    width: 100%;
+    height: auto;
+}
+
+.map__food__mobile{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.snacks-container__mobile {
+    font-family: Arial, sans-serif;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.snack-item__mobile {
+    margin-top: 5px;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #997EAC
+}
+
+
+
+.location-col__mobile {
+    flex: 0 0 40%;
+    padding: 12px;
+    background: #f5f5f5;
+    color: #775C8A;
+
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    font-size: clamp(25px, 3vh, 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-col__mobile {
+    flex: 1;
+    padding: 12px;
+    color: #333;
+    font-size: clamp(20px, 3vh, 25px);
+    display: flex;
+    align-items: center;
+}
+
+.text__food__mobil{
+    color: #775C8A;
+
+}
+
+.span__food__mobil{
+    font-family: 'Inter', sans-serif;
+
+    vertical-align: middle;
+
+}
+
+@media (max-width: 480px) {
+    .location-col__mobile, .food-col__mobile {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}

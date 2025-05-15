@@ -1,0 +1,62 @@
+.walks__mobile__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.logo__walks__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+}
+
+
+
+.text__walks__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: clamp(13px, 3vh, 18px);
+    color: #775C8A;
+}
+
+.block__walks__mobile{
+    border-radius: 31.58px;
+    padding: 12px;
+    width: 70%;
+    height:6.5%;
+    background: #FFED87;
+    border: 0.77px solid #997EAC;
+    color: #997EAC;
+    line-height: 120%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: clamp(13px, 3vh, 18px);
+
+
+}
+
+.grid__walks__mobile img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.img__walks1__mobile{
+    width: 100%;
+    height: auto;
+}
+
+.img__walks3__mobile{
+    width: 100%;
+    height: auto;
+}
+
+.map__walks__mobile{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
