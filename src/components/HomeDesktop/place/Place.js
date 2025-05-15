@@ -14,6 +14,7 @@ function Place  () {
                     ул. Наличная д.5</p>
                 <iframe className="map"
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A43666f355a6fe9c4dd2deb510c8a559ea9bc2ad576b0a46acea136a23944cf33&amp;source=constructor"
+                        title='map'
                         frameBorder="0"></iframe>
             </div>
             <div className="right__place">

@@ -5,17 +5,7 @@ export default function HomeMobile() {
     return (
         <div className="App">
             <HeaderMobile />
-            {/*<PlaceMobile />*/}
-            {/*<SheduleMobile />*/}
-            {/*<FoodMobile />*/}
-            {/*<WalksMobile />*/}
-            {/*<TripsMobile />*/}
-            {/*<MasterMobile />*/}
-            {/*<ArtMobile />*/}
-            {/*<TgMobile />*/}
-            {/*<WeeksMobile />*/}
-            {/*<TarifMobile />*/}
-            {/*<FinalMobile />*/}
+
         </div>
     );
 }

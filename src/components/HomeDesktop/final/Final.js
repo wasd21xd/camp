@@ -7,7 +7,7 @@ function Final() {
         <section className="final__container">
             <h2 className="final__title">На какую смену пойдем?</h2>
             <div className="final__block">
-                <img src={imgfinal} className="final__img"/>
+                <img src={imgfinal} className="final__img" alt='123'/>
                 <div className="final__right">
                     <button className="final__circle question">
                         Уже выбрали даты?

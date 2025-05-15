@@ -12,7 +12,7 @@ import Weeks from "../HomeDesktop/weeks/Weeks";
 import Tarif from "../HomeDesktop/tarif/Tarif";
 import Final from "../HomeDesktop/final/Final";
 
-export default function Home() {
+export default function HomeDesktop() {
     return (
         <div className='App'>
             <Header />
