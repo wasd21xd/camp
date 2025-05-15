@@ -1,0 +1,61 @@
+.schedule-container__mobile {
+    font-family: Arial, sans-serif;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.logo__shedule__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+
+}
+
+.schedule-row__mobile {
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #997EAC
+}
+
+.time-col__mobile {
+    flex: 0 0 30%;
+    padding: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: clamp(15px, 3vh, 21px) ;
+    text-align: center;
+    vertical-align: middle;
+
+    background: #f5f5f5;
+    color: #333;
+    border-right: 1.5px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-col__mobile {
+    flex: 1;
+    padding: 12px;
+    color: #333;
+    font-size: clamp(15px, 3vh, 21px) ;
+    display: flex;
+    align-items: center;
+}
+
+/* Адаптация для маленьких экранов */
+@media (max-width: 480px) {
+    .time-col__mobile, .activity-col__mobile {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}

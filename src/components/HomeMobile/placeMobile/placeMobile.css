@@ -1,0 +1,56 @@
+.place__mobile__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.logo__place__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+}
+
+.text__section__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: clamp(20px, 3vh, 25px);
+    color: #775C8A;
+}
+
+#map{
+    width: 100%;
+    height: 35vh;
+    padding-bottom: 10px;
+}
+
+
+.right__place__mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+
+.place__1__mobile {
+    grid-column: 1 / 3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.place__2__mobile,
+.place__3__mobile {
+    height: auto;
+    overflow: hidden;
+}
+
+.place__1__mobile img,
+.place__2__mobile img,
+.place__3__mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
