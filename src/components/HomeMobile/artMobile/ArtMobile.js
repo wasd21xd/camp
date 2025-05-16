@@ -20,7 +20,6 @@ function ArtMobile () {
                         <li className="item__li__mobile">проведем различные химические опыты</li>
                         <li className="item__li__mobile">и придумаем что-нибудь еще!</li>
                     </ul>
-                    <p className="text__master-block__mobile">и многое другое!</p>
                 </div>
             </div>
         </section>

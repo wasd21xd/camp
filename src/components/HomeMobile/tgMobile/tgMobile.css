@@ -1,0 +1,61 @@
+.tg__container__mobile{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__tg__mobile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+}
+
+.text__tg__mobile{
+    font-size: clamp(13px, 3vh, 18px);;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #775C8A;
+}
+
+.span__tg__mobile{
+    font-weight: 900;
+    font-size: clamp(13px, 3vh, 18px);;
+    font-family: 'Inter', sans-serif;
+    color: #775C8A;
+}
+
+.circlee__mobile{
+    width: 100%;
+    height: auto;
+}
+
+.btn__tg__mobile{
+
+        width: 100%;
+        height: 6vh;
+        border-radius: 999px;
+        box-shadow: 3.1px 3.1px 18.62px 0px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #8F66AB 0%, #625FEB 100%);
+        color: white;
+        font-weight: 900;
+        font-size: clamp(30px, 5vw, 50px);
+        font-family: Inter, sans-serif;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn__tg__mobile:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 30px rgba(98, 95, 235, 0.5);
+    }
+
+    /* Эффект при нажатии */
+    .btn__tg__mobile:active {
+        transform: scale(0.97);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+
