@@ -9,6 +9,7 @@ import MasterMobile from "../../components/HomeMobile/masterMobile/MasterMobile"
 import ArtMobile from "../../components/HomeMobile/artMobile/ArtMobile";
 import TgMobile from "../../components/HomeMobile/tgMobile/TgMobile";
 import WeeksMobile from "../../components/HomeMobile/weeksMobile/WeeksMobile";
+import TarifMobile from "../../components/HomeMobile/tarifMobile/TarifMobile";
 
 export default function HomeMobile() {
     return (
@@ -23,6 +24,7 @@ export default function HomeMobile() {
             <ArtMobile />
             <TgMobile />
             <WeeksMobile />
+            <TarifMobile />
         </div>
     );
 }
