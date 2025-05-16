@@ -10,6 +10,7 @@ import ArtMobile from "../../components/HomeMobile/artMobile/ArtMobile";
 import TgMobile from "../../components/HomeMobile/tgMobile/TgMobile";
 import WeeksMobile from "../../components/HomeMobile/weeksMobile/WeeksMobile";
 import TarifMobile from "../../components/HomeMobile/tarifMobile/TarifMobile";
+import FinalMobile from "../../components/HomeMobile/FinalMobile/FinalMobile";
 
 export default function HomeMobile() {
     return (
@@ -25,6 +26,7 @@ export default function HomeMobile() {
             <TgMobile />
             <WeeksMobile />
             <TarifMobile />
+            <FinalMobile />
         </div>
     );
 }
