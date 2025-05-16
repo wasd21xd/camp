@@ -14,11 +14,10 @@ function MasterMobile () {
                     <p className="name__block__mobile">Изучим, как:</p>
                     <ul className="ul__master__mobile">
                         <li className="item__li__mobile">планировать</li>
-                        <li className="item__li__mobile">достигать целей,</li>
+                        <li className="item__li__mobile">достигать целей</li>
                         <li className="item__li__mobile">развивать лидерские качества, общаться</li>
                         <li className="item__li__mobile">выражать свои эмоции</li>
                     </ul>
-                    <p className="text__master-block__mobile">и многое другое!</p>
                 </div>
             </div>
         </section>
