@@ -1,9 +1,13 @@
+.weeks__mobile__container{
+    display: flex;
+}
+
+
 .schedule-block {
     width: 100%;
     max-width: 1740px;
     margin: 0 auto;
     background-color: #fff;
-    border-radius: 8px;
 }
 
 .schedule-title__mobile {
@@ -21,7 +25,7 @@
     color: #775C8A;
 }
 
-.schedule-months__container {
+.schedule-months {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
