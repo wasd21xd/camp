@@ -1,0 +1,53 @@
+.travel__mobile__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.logo__travel__mobile {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: clamp(35px, 3vh, 50px);
+    text-align: center;
+    color: #997EAC;
+}
+
+.trips__text__mobile {
+    font-family: Inter, sans-serif;
+    font-size: clamp(13px, 3vh, 18px);;
+    color: rgba(119, 92, 138, 1);
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.trips__highlight__mobile {
+    background: #FFED87;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid #8E74A8;
+    color: rgba(119, 92, 138, 1);
+
+    margin-bottom: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: clamp(13px, 3vh, 18px);
+}
+
+.img__own{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.trips__row__mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trips__row__mobile img {
+    width: 100%;
+    max-width: 32%; /* чтобы влезали три картинки в строку */
+    height: 120px; /* или 30vh, подбери нужный размер */
+    object-fit: cover;
+}
