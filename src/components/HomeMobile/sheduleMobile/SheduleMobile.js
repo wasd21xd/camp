@@ -25,7 +25,7 @@ const style3 = {
 
 function SheduleMobile () {
     return (
-        <div className="schedule-container__mobile">
+        <section className="schedule-container__mobile">
             <h2 className='logo__shedule__mobile'>Распорядок дня</h2>
             <div className="schedule-row__mobile">
                 <div style={style1} className="time-col__mobile">09:00 - 10:00</div>
@@ -71,7 +71,7 @@ function SheduleMobile () {
                 <div style={style1} className="time-col__mobile">17:30 - 18:00</div>
                 <div style={style1text} className="activity-col__mobile">подведение итогов дня</div>
             </div>
-        </div>
+        </section>
     )
 }
 
