@@ -5,6 +5,7 @@ import SheduleMobile from "../../components/HomeMobile/sheduleMobile/SheduleMobi
 import FoodMobile from "../../components/HomeMobile/food/FoodMobile"  ;
 import WalksMobile from "../../components/HomeMobile/walksMobile/WalksMobile";
 import TravelMobile from "../../components/HomeMobile/travelMobile/TravelMobile";
+import MasterMobile from "../../components/HomeMobile/masterMobile/MasterMobile";
 
 export default function HomeMobile() {
     return (
@@ -15,6 +16,7 @@ export default function HomeMobile() {
             <FoodMobile />
             <WalksMobile />
             <TravelMobile />
+            <MasterMobile />
         </div>
     );
 }
