@@ -22,16 +22,20 @@
 
 
 .title__place{
+    font-size: 2.5em;
+    color: #997EAC;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-family: Inter, sans-serif;
     font-weight: 900;
-    font-size: clamp(40px,4vh,50px);
-    color: #775C8A;
+    text-wrap: nowrap;
 }
 
 .text__place {
     font-family: Inter, sans-serif;
     font-weight: 400;
     color: #775C8A;
+    font-size: clamp(20px, 5vw, 27px);
 }
 
 

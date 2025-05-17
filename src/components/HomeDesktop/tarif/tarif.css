@@ -11,7 +11,7 @@
 }
 
 .tariff-title {
-    font-size: 2.3em;
+    font-size: 2.5em;
     color: #997EAC;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -77,7 +77,7 @@
 }
 
 .tariff-note {
-    font-size: clamp(12px, 5vw, 20px);
+    font-size: clamp(20px, 5vw, 27px);
     color: #5f3f7d;
     line-height: 1.5;
 }

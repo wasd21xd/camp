@@ -88,7 +88,7 @@
     background: linear-gradient(180deg, #8F66AB 0%, #625FEB 100%);
     color: white;
     font-weight: 900;
-    font-size: clamp(30px, 5vw, 50px);
+    font-size: clamp(25px, 5vw, 40px);
     font-family: Inter, sans-serif;
     text-align: center;
     cursor: pointer;

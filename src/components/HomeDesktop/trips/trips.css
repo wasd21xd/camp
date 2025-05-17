@@ -38,7 +38,7 @@
 }
 
 .trips__title {
-    font-size: 2.3em;
+    font-size: 2.5em;
     color: #997EAC;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -48,7 +48,7 @@
 
 .trips__text {
     font-family: Inter, sans-serif;
-    font-size: clamp(25px, 2vw, 32px);
+    font-size: clamp(20px, 5vw, 27px);
     color: rgba(119, 92, 138, 1);
     font-weight: 400;
     margin-bottom: 16px;
@@ -64,7 +64,7 @@
     margin-bottom: 16px;
     font-family: Inter, sans-serif;
     font-weight: 700;
-    font-size: clamp(20px, 4vh, 28px);
+    font-size: clamp(20px, 5vw, 27px);
 
 
 

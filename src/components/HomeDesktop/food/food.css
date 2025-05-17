@@ -4,7 +4,7 @@
 }
 
 .title {
-    font-size: 2.3em;
+    font-size: 2.5em;
     color: #997EAC; /* Фиолетовый цвет заголовка */
     margin-top: 10px;
     margin-bottom: 30px;
@@ -81,7 +81,7 @@
     color: #775C8A;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: clamp(15px, 5vw, 25px);
+    font-size: clamp(20px, 5vw, 27px);
 }
 
 .info-box-content .sub-text {
@@ -107,6 +107,7 @@
 
 .map-placeholder {
     min-height: 400px;
+
 }
 
 .img__food {
@@ -121,3 +122,4 @@
 .yellow-bg {
     background-color: #FFED87;
 }
+

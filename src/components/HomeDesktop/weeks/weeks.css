@@ -9,9 +9,10 @@
 }
 
 .schedule-title {
-    font-size: clamp(24px, 5vw, 48px); /* Заголовок - крупнее */
-    color: #775C8A;
+    font-size: 2.5em;
+    color: #997EAC;
     margin-top: 10px;
+    margin-bottom: 30px;
     font-family: Inter, sans-serif;
     font-weight: 900;
 }
@@ -19,7 +20,7 @@
 .schedule-subtitle {
     font-family: Inter, sans-serif;
     font-weight: 400;
-    font-size: clamp(18px, 4.5vw, 28px); /* Подзаголовок */
+    font-size: clamp(20px, 5vw, 27px);
     color: #775C8A;
     padding-top: 20px;
 }
