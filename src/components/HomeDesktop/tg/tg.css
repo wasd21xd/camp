@@ -72,40 +72,31 @@
 }
 
 .btn__tg {
-    background: linear-gradient(135deg, rgba(105, 64, 133, 0.6), rgba(4, 0, 255, 0.7));
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 37.1px;
-    padding: 10px 15px;
-    width: fit-content;
-    max-width: 100%;
-    font-family: Inter, sans-serif;
-    font-weight: 900;
-    font-size: clamp(1rem, 2.5vw, 2em); /* адаптивный шрифт */
+    margin-top: 50px;
+    width: 100%;
+    padding: 1.2vh 0;
+    border-radius: 999px;
+    box-shadow: 3.1px 3.1px 18.62px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #8F66AB 0%, #625FEB 100%);
     color: white;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-    cursor: pointer;
+    font-weight: 900;
+    font-size: clamp(25px, 5vw, 40px);
+    font-family: Inter, sans-serif;
     text-align: center;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    text-wrap: balance;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-/* Hover: глубокая подсветка и лёгкое увеличение */
+/* Эффект при наведении */
 .btn__tg:hover {
-    background: linear-gradient(135deg, rgba(130, 90, 175, 0.75), rgba(30, 0, 255, 0.85));
-    transform: scale(1.04) translateY(-2px);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(98, 95, 235, 0.5);
 }
 
-/* Active: эффект "нажатия внутрь" */
+/* Эффект при нажатии */
 .btn__tg:active {
-    transform: scale(0.97) translateY(1px);
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(135deg, rgba(80, 50, 120, 0.65), rgba(2, 0, 180, 0.7));
+    transform: scale(0.97);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 
