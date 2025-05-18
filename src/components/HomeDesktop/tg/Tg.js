@@ -24,7 +24,8 @@ function Tg() {
             </div>
             <div className="right__tg">
                 <img className="circlee" src={imgtg2} alt="tg"/>
-                <button className="btn__tg">ПОДПИСАТЬСЯ</button>
+                <button onClick={() => window.location.href ="https://t.me/+yBXr9E8zVuxkZjEy"}
+                    className="btn__tg">ПОДПИСАТЬСЯ</button>
             </div>
         </section>
     )

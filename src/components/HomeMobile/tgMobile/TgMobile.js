@@ -12,7 +12,8 @@ function TgMobile () {
             <p className="text__tg__mobile">мы создали телеграмм-канал,
                 который ведем в течение дня:</p>
             <img className="circlee__mobile" src={imgtg2} alt="tg"/>
-            <button className="btn__tg__mobile">ПОДПИСАТЬСЯ</button>
+            <button onClick={() => window.location.href ="https://t.me/+yBXr9E8zVuxkZjEy"}
+                className="btn__tg__mobile">ПОДПИСАТЬСЯ</button>
 
                 <p className="text__tg__mobile">Сюда снимаем кружочки
                     с нашими юными программистами </p>
