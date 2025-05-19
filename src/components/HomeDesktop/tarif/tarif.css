@@ -3,8 +3,7 @@
 .tariff-section {
     padding: 60px 20px;
     text-align: center;
-    background: radial-gradient(circle at 30% 40%, rgba(185, 164, 222, 0.15), transparent 70%),
-    radial-gradient(circle at 70% 60%, rgba(185, 164, 222, 0.15), transparent 70%);
+
     color: #5f3f7d;
     font-family: 'Inter', sans-serif;
 
